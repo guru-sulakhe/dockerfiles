@@ -1,3 +1,3 @@
 ARG version
-FROM almalinus:${version}
+FROM almalinux:${version}
 RUN cat /etc/*release
