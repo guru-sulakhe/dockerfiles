@@ -1,5 +1,6 @@
 FROM almalinux:9
 RUN adduser expense
+# expense user only can access this image
 USER expense
 CMD ["sleep", "100"]
 
