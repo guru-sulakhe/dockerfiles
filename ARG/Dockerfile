@@ -1,5 +1,5 @@
 ARG version
-#if the user dont give version during the image build, version 9 will be supplied by default
+#if the user dont give version during the image build, version 9 will be supplied by default because ${version:-9} is included 
 FROM almalinux:${version:-9}
 #RUN cat /etc/*release
 #setting default values to the ARG command
